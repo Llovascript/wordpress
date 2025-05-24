@@ -1,0 +1,29 @@
+.content-builder.yes>p:first-child:first-letter{
+    font-size: 35px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border: 1px solid #dee2e6;
+    display: block;
+    float: left;  
+    margin-top: .5rem;
+    margin-right: 2rem;
+    margin-bottom: 1rem;  
+} 
+
+.content-builder .wp-block-quote p:before {
+content: '"';
+position: absolute;
+top: 15px;
+left: 20px;
+font-size: 25px;
+}
+.content-builder .wp-block-quote {
+background: #eee;
+padding: 35px;
+margin: 0px 0px 28px;
+position: relative;
+}
+.ne-toc-wrap ul {
+    list-style: auto;
+}

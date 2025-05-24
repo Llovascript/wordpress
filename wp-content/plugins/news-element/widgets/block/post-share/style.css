@@ -1,0 +1,7 @@
+.ne-post-share{
+    justify-content: space-between;
+}
+.ne-post-share a{
+    align-items: center;
+    justify-content: center;     
+}

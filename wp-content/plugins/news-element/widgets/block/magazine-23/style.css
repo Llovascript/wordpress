@@ -1,0 +1,33 @@
+
+.magazine-23.style_one .first .post-item .excerpt-wrap,.magazine-23.style_four .first .post-item .excerpt-wrap{
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 0px 30px;        
+}
+    
+
+.magazine-23 .slide-bg:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height:100%;
+    background:#00000073;
+    transition: height 0.2s;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}    
+
+.magazine-23.has_dot .rest .anim-fade:before {
+    content:"•";
+    top: 20%;
+    transform: translateY(-50%);
+    position: absolute;
+    left: -1px;
+    font-size: 23px;
+}
+.magazine-23.has_dot .rest .anim-fade{
+  position:relative;
+  padding-left:20px;
+}

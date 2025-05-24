@@ -1,0 +1,6 @@
+.pnlable{
+  display: block;
+}
+.five .next-post{
+  flex-direction: row-reverse;
+}

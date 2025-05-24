@@ -1,0 +1,38 @@
+.tp-menu-wrap>li:not(:first-child)>a::after {
+    content: "";
+    display: block;
+    height: 10px;
+    position: absolute;
+    left: -7px;
+    width: 1px;
+}
+.tp-menu-wrap>li>a::before {
+    content:"";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0px;
+    height: 2px;
+    transition: all 0.3s ease 0s;
+}
+.tp-menu-wrap>li>a:hover::before{
+  width:100%;
+}
+.tp-menu-wrap.default>li .drop-icon{
+  transition: all 0.3s ease 0s;
+}
+.tp-menu-wrap.default>li:hover .drop-icon{
+  -webkit-transform: rotate(-180deg);
+  transform: rotate(-180deg);  
+}
+.tp-menu-wrap .sub-menu>li>a {
+  border-left: 2px solid transparent; 
+}
+.tp-menu-wrap .sub-menu>.menu-item-has-children>a:after {
+font-family: 'bootstrap-icons';
+    font-size: 12px;
+    content: "\f286";
+    position: absolute;
+    transform: rotate(90deg);
+}

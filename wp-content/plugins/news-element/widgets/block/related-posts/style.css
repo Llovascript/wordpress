@@ -1,0 +1,45 @@
+.kb-filter-bar.khrltd .rightpart{
+    float: inherit;
+   position: relative;
+   top: 10px;
+   right: 0px; 
+}
+
+.khrltd .kb_subcats_list li {
+   padding-left: inherit;
+}
+.kb-filter-bar.khrltd{
+ overflow:hidden;
+}
+.khrltd .kb_subcats_list{
+ margin-left: 0;
+   position: relative;
+}
+
+.khrltd .kb_subcats_list a{
+
+   padding: 3px 10px; 
+}
+
+.khrltd .kb_subcats_list a.active{
+   background: #85b0ff;
+}
+
+.khbrelatedgrid .khbrelatedpost{
+   width: 33.33%;
+   float: left;
+   padding: 10px;
+}
+.khbrelatedgrid .ft-thumbwrap{
+   overflow: hidden;
+}
+.khbrelatedgrid .khobish-ajax-wrap{
+ margin-left:-10px;
+ margin-right:-10px;
+}
+.khbrelatedgrid .catbg-wrap{
+   position: absolute;
+}
+.khbrelatedgrid ul.kb_subcats_list li.notneeded{
+   display: inline-block;
+ }
